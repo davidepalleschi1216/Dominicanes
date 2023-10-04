@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Domenicanes</title>
+</head>
+
+<body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <nav>
+        <div class="topbar">
+            <button id="btn1"><img src="logo2.webp" alt="" height="40px" style="border-radius: 10px;"></button>
+            <button id="btn2"><img src="logo1.webp" alt="" height="40px"></button>
+            <button>Home</button>
+            <button>Dominicanes</button>
+            <button>Provincia</button>
+            <button>Predicazione</button>
+            <button>Vocazioni</button>
+            <button>Giovani</button>
+            <button>Media</button>
+        </div>
+    </nav>
+
+    <div id="Modal1" class="modal">
+        <div class="modal-content">
+            <button class="close1 close">
+                <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+            <center>
+                <br>
+                <img src="logo2.webp" alt="" width="150px">
+                <br>
+                <p> Due sono le azioni che scaturiscono da questo amore della verità: la contemplazione e l’azione
+                    apostolica, che di questa contemplazione è frutto e sorgente. La contemplazione dell’amore di Dio
+                    porta il domenicano all’azione apostolica e quindi non solo a ricercare la perfezione personale, ma
+                    all’offrire e predicare in primis con la testimonianza della sua vita la Parola contemplata e
+                    studiata. La Predicazione viene dall’abbondanza della contemplazione, e la contemplazione non è più
+                    solo fine a se stessa, ma finalizzata alla carità verso Dio e verso il prossimo. Come illuminare è
+                    più che risplendere, così donare ciò che si è contemplato è più che solo contemplare, diceva san
+                    Tommaso d’Aquino.</p>
+                <p> Tutto questo i frati domenicani cercano di viverlo comunitariamente. Ma attenzione! Una comunità
+                    domenicana, non è solamente un associarsi fraterno di persone che si sono riunite per raggiungere un
+                    fine comune. È molto di più. È comunione nella carità, proprio come lo era quella degli apostoli,
+                    perché formare una comunità, nella vita religiosa, significa non solo essere insieme, ma vivere
+                    insieme. E tutto ciò non può che portare a condividere con gli altri quel grande dono che insieme
+                    riceviamo ogni giorno nella preghiera, nello studio, nell’osservanza dei voti e nella vita in
+                    comune: Gesù Cristo, Figlio di Dio fattosi uomo.</p>
+                <br>
+                <hr width="10%">
+            </center>
+        </div>
+    </div>
+
+    <div id="Modal2" class="modal">
+        <div class="modal-content">
+            <button class="close2 close">
+                <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+            <center>
+                <br>
+                <img src="logo1.webp" alt="" width="150px">
+                <br>
+                <p> Due sono le azioni che scaturiscono da questo amore della verità: la contemplazione e l’azione
+                    apostolica, che di questa contemplazione è frutto e sorgente. La contemplazione dell’amore di Dio
+                    porta il domenicano all’azione apostolica e quindi non solo a ricercare la perfezione personale, ma
+                    all’offrire e predicare in primis con la testimonianza della sua vita la Parola contemplata e
+                    studiata. La Predicazione viene dall’abbondanza della contemplazione, e la contemplazione non è più
+                    solo fine a se stessa, ma finalizzata alla carità verso Dio e verso il prossimo. Come illuminare è
+                    più che risplendere, così donare ciò che si è contemplato è più che solo contemplare, diceva san
+                    Tommaso d’Aquino.</p>
+                <p> Tutto questo i frati domenicani cercano di viverlo comunitariamente. Ma attenzione! Una comunità
+                    domenicana, non è solamente un associarsi fraterno di persone che si sono riunite per raggiungere un
+                    fine comune. È molto di più. È comunione nella carità, proprio come lo era quella degli apostoli,
+                    perché formare una comunità, nella vita religiosa, significa non solo essere insieme, ma vivere
+                    insieme. E tutto ciò non può che portare a condividere con gli altri quel grande dono che insieme
+                    riceviamo ogni giorno nella preghiera, nello studio, nell’osservanza dei voti e nella vita in
+                    comune: Gesù Cristo, Figlio di Dio fattosi uomo.</p>
+                <br>
+                <hr width="10%">
+            </center>
+        </div>
+    </div>
+
+    <script>
+        var modal1 = document.getElementById("Modal1");
+        var btn1 = document.getElementById("btn1");
+        var button_close1 = document.getElementsByClassName("close1")[0];
+    
+        btn1.onclick = function () {
+            modal1.style.display = "block";
+        }
+    
+        button_close1.onclick = function () {
+            modal1.style.display = "none";
+        }
+    
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+    </script>
+    
+    <script>
+        var modal2 = document.getElementById("Modal2");
+        var btn2 = document.getElementById("btn2");
+        var button_close2 = document.getElementsByClassName("close2")[0];
+    
+        btn2.onclick = function () {
+            modal2.style.display = "block";
+        }
+    
+        button_close2.onclick = function () {
+            modal2.style.display = "none";
+        }
+    
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="page1">
+        <img src="page1.webp" alt="">
+    </div>
+    <br>
+    <div class="page2">
+        <h1>Laudare, Benedicere, Praedicare</h1>
+        <table>
+            <tr>
+                <td><img src="img-page2/page2-1.webp" alt=""></td>
+                <td><img src="img-page2/page2-2.webp" alt=""></td>
+                <td><img src="img-page2/page2-3.webp" alt=""></td>
+            </tr>
+            <tr>
+                <td>Santa Caterina da Siena</td>
+                <td>La missione Domenicana</td>
+                <td>San Domenico</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="page3">
+        <h1>Notizie</h1>
+        <p>L’Ordine dei frati predicatori, fondato da S. Domenico, “fin dalle sue origini è noto esser stato istituito
+            in modo specifico per la predicazione e la salvezza delle anime”. Perciò i nostri frati, secondo
+            l’insegnamento del fondatore, “ovunque, come persone che desiderano procurare la propria e l’altrui
+            salvezza, si comportino onestamente e religiosamente, da uomini evangelici che, seguendo le orme del loro
+            Salvatore, parlano con Dio o di Dio al prossimo” (Prime Costituzioni dell’Ordine).</p>
+        <center>
+            <div class="foto-container">
+
+                <div class="card">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img-notizie/img1.webp" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Cammino Domenicano</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img-notizie/img2.webp" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Basilica Santa Maria Sopra Minerva</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img-notizie/img3.webp" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>I Nuovi Novizi</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img-notizie/img4.webp" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Udienza Santo Padre Francesco</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <div class="page4">
+        <table cellspacing="20">
+            <tr>
+                <td>
+                    <div class="image-table">
+                        <h1>Santa Messa</h1>
+                        <img src="img-page4/img1.webp" alt="" width="100%">
+                    </div>
+                </td>
+                <td>
+                    <div class="image-table">
+                        <h1>Una visione Cristiana</h1>
+                        <img src="img-page4/img2.webp" alt="" width="100%">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="image-table">
+                        <h1>Santa Maria Sopra Minerva</h1>
+                        <img src="img-page4/img3.webp" alt="" width="100%">
+                    </div>
+                </td>
+                <td>
+                    <div class="image-table">
+                        <h1>Santa Maria del Rosario</h1>
+                        <img src="img-page4/img4.webp" alt="" width="100%">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="image-table">
+                        <h1>Carisma Domenicano</h1>
+                        <img src="img-page4/img5.webp" alt="" width="100%">
+                    </div>
+                </td>
+                <td>
+                    <div class="image-table">
+                        <h1>Catechismo Giovanile</h1>
+                        <img src="img-page4/img6.webp" alt="" width="100%">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page5">
+        <div class="testo">
+            <h1>Scopri la tua vocazione</h1>
+            <p>In questa semplice sezione potrai trovare tutti quegli articoli che non possono essere definiti
+                propriamente meditazioni, eppure hanno una saggezza ed una profondità tali da meritare di essere
+                ancora letti e riletti. Ma perchè? Soltanto per un motivo: perchè in essi c’è certamente qualcosa -
+                stiamone pur certi - che può parlare al tuo cuore ed alla tua mente.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="page6">
+        <div class="testo">
+            <h1>Monasteri</h1>
+            <p>Come ci insegna la Regola, il motivo per cui anzitutto ci siamo riuniti è quello di vivere insieme in
+                piena concordia e di avere un’anima sola e un cuor solo in Dio. Questa unione, oltrepassando i confini
+                del convento, raggiunge la sua pienezza nella comunione con la provincia e con tutto l’Ordine. Come
+                nella Chiesa degli Apostoli, anche la nostra comunione ha le sue fondamenta, trova il suo sviluppo e la
+                sua stabilità nello stesso Spirito: in Lui riceviamo il Verbo di Dio Padre con la stessa unica fede, lo
+                contempliamo con lo stesso unico amore e lo lodiamo con una stessa unica voce; in Lui formiamo un solo
+                corpo nutrendoci dello stesso unico Pane; in Lui, infine, abbiamo tutto in comune e siamo destinati a
+                una medesima opera di evangelizzazione.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="page7">
+        <div class="testo">
+            <h1>Le Suore Domenicane</h1>
+            <p>La vocazione delle monache le pone nel cuore dell’Ordine. Questo era infatti il desiderio di S. Domenico:
+                porre l’accento sulla grazia della contemplazione che, sola, è la vera fonte della vita apostolica.
+                Proprio come una famiglia spirituale, in comunione con la missione dei loro fratelli predicatori, le
+                monache, con la loro preghiera, accompagnano il loro ministero e apostolato di testimonianza del Cristo
+                risorto.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="page8">
+        <div class="testo">
+            <h1>Il Nostro Archivio</h1>
+            <p>In questa semplice sezione potrai trovare tutti quegli articoli che non possono essere definiti
+                propriamente meditazioni, eppure hanno una saggezza ed una profondità tali da meritare di essere ancora
+                letti e riletti. Ma perchè? Soltanto per un motivo: perchè in essi c’è certamente qualcosa - stiamone
+                pur certi - che può parlare al tuo cuore ed alla tua mente.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="page9">
+        <img src="page9.webp" alt="" width="100%" height="800px">
+    </div>
+
+    <br>
+
+    <div class="page10">
+        <br>
+        <h1>Calendario</h1>
+        <br>
+        <img src="calendario.webp" width="90%" height="auto">
+
+    </div>
+
+    <br>
+
+    <div class="page11">
+        <h1>Dona Ora</h1>
+        <p>Nelle prime Costituzioni del nostro Ordine (1228) si esortava il Maestro dei novizi a insegnare ai giovani
+            che iniziavano il cammino formativo nella vita fraterna, a ringraziare con gioiosa gratitudine per ogni dono
+            ricevuto dall’esterno (“Benedetto sia il Signore nei suoi doni”).</p>
+        <br>
+        <img src="logo-page11.png" alt="" width="75">
+
+        <table>
+            <tr>
+                <td>
+                    <div class="card-donation">
+                        <br>
+                        <h2>Minimal</h2>
+                        <br>
+                        <h1>5€</h1>
+                        <br>
+                        <br>
+                        <button>Voglio Aiutare</button>
+                        <br><br>
+                        <p>Il versamento viene realizzato tramite il Consorzio Triveneto S.p.A. (Viale dell’Industria 23
+                            - 35129 Padova) che cura la sicurezza nella gestione delle transazioni, certificate da
+                            “Authentic Sites use thawte SSL Web Server Certificates”, con il protocollo SSL <br> <a
+                                href="">Leggi di più…</a></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-donation">
+                        <br>
+                        <h2>Buona Carità</h2>
+                        <br>
+                        <h1>15€</h1>
+                        <br>
+                        <br>
+                        <button>Voglio Aiutare</button>
+                        <br><br>
+                        <p>Il versamento viene realizzato tramite il Consorzio Triveneto S.p.A. (Viale dell’Industria 23
+                            - 35129 Padova) che cura la sicurezza nella gestione delle transazioni, certificate da
+                            “Authentic Sites use thawte SSL Web Server Certificates”, con il protocollo SSL <br> <a
+                                href="">Leggi di più…</a></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-donation">
+                        <br>
+                        <h2>Extra Carità</h2>
+                        <br>
+                        <h1>25€</h1>
+                        <br>
+                        <br>
+                        <button>Voglio Aiutare</button>
+                        <br><br>
+                        <p>Il versamento viene realizzato tramite il Consorzio Triveneto S.p.A. (Viale dell’Industria 23
+                            - 35129 Padova) che cura la sicurezza nella gestione delle transazioni, certificate da
+                            “Authentic Sites use thawte SSL Web Server Certificates”, con il protocollo SSL <br> <a
+                                href="">Leggi di più…</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="page12">
+
+        <dir class="form-feedback">
+
+            <h1>Website Feedback</h1>
+
+            <p>Utilizzate il modulo sottostante per inviarci i vostri commenti o segnalare eventuali problemi
+                riscontrati nella ricerca di informazioni sul nostro sito web. Leggiamo con attenzione tutti i
+                commenti, ma vi ricordiamo che non possiamo rispondere ai commenti che ci inviate.</p>
+            <form action="" method="post">
+                <center>
+                    <table cellspacing="20px">
+                        <tr>
+                            <td>
+                                <br>
+                                <input type="text" name="" id="" placeholder="Nome*"><br>
+                                <br>
+                                <input type="text" name="" id="" placeholder="Email*"><br>
+                                <br>
+                                <input type="text" name="" id="" placeholder="Oggetto*">
+
+                            </td>
+                            <td>
+                                <br>
+                                <textarea name="" id="" cols="30" rows="8" placeholder="Commento..."></textarea>
+
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+                <label>
+                    <input type="checkbox" name="" id="">
+                    Aconsento al trattamento dei dati personali
+                </label>
+                <br>
+                <br>
+                <button>Submit Feedback</button>
+            </form>
+        </dir>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

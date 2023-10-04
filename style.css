@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;500;800&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+.topbar{
+  overflow: hidden;
+  text-align: center;
+  width: 53%;
+  height: 65px;
+  position: fixed;
+  top: 15px;
+  left: 24%;
+  background: rgba(18, 10, 0, 0.40);
+  border: 1px solid #707070;
+  border-radius: 72px;
+  opacity: 1;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  z-index: 2;
+  
+
+}
+
+.topbar button{
+  height: 60px;
+  font-size: 20px;
+  border: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.topbar button img {
+  vertical-align: middle;
+}
+
+.modal {
+  color: black;
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 150px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+}
+
+
+.modal-content {
+  border-radius: 30px;
+  color: black;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  margin: auto;
+  padding: 40px;
+  width: 80%;
+}
+
+.modal-content p {
+  font-weight: 500;
+  text-align: left;
+}
+
+.close {
+  border: 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color: gray;
+  float: right;
+  font-size: 40px;
+
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page1 {
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page1 img {
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.page2{
+    color: #CBCBCB;
+    margin: 0px;
+    width: 100%;
+    height: 800px;
+    background: #1F1F1F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.page2 h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.page2 table{
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.page2 img{
+    width: 280px;
+    height: 529px;
+    padding-bottom: 20px;
+}
+
+.page3{
+    margin: 0px;
+    color: #CBCBCB;
+    margin: 0px;
+    width: 100%;
+    height: 800px;
+    background: #F4F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.page3 h1{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0px;
+    color: #FF4545;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.page3 p{
+    text-align: center;
+    padding-inline: 15%;
+    color: #ADADAD;
+    opacity: 1; 
+    
+}
+
+/*
+.foto-container {
+    display: flex; 
+    padding: 30px;
+    width: 90%; 
+    overflow-x: auto; 
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding-inline: 5px;
+  }
+
+*/
+
+.foto-container {
+    display: flex; 
+    padding: 30px;
+    width: 90%; 
+    overflow-x: auto; 
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding-inline: 5px;
+  }
+
+  .card img{
+    width: 503px;
+    height: 330px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding-inline: 5px;
+  }
+
+  .card table {
+    text-align: center;
+  }
+
+  .card p{
+    font-size: 20px;
+  }
+
+.page4{
+  width: 100%;
+  height: auto;
+}
+
+.page4 table{
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.image-table {
+  position: relative;
+}
+
+.image-table h1{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+.page5 {
+    background-image: url("page5.webp");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: 800px;
+}
+
+.testo{
+  padding-inline: 15%;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.page5 h1{
+  font-size: 45px;
+}
+
+.page6 {
+  background-image: url("page6.webp");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.page6 .testo{
+  color: #383838;
+}
+
+.page6 h1{
+  font-size: 45px;
+}
+
+.page7 {
+  background-image: url("page7.webp");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.page7 h1{
+  font-size: 45px;
+}
+
+.page7 p{
+  color: #B2B2B2;
+}
+
+.page8 {
+  background-image: url("page8.webp");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.page8 h1{
+  font-size: 45px;
+}
+
+.page8 p{
+  color: #EFEFEF;
+}
+
+.page9{
+    margin: 0px;
+    width: 100%;
+    height: 800px;
+}
+
+.page10{
+  background-image: url("page10.webp");
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.page10 h1{
+  padding: 30px;
+  margin: 0;
+  font-size: 45px;
+}
+
+.page10 img{
+  border-radius: 50px;
+}
+
+
+.page11 {
+  text-align: center;
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+  color: #35D010;
+}
+
+.page11 h1 {
+  padding-top: 30px;
+  margin: 0;
+  font-size: 45px;
+}
+
+.page11 p {
+  padding-inline: 10%;
+  color: #77AA72;
+}
+
+.page11 table {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.card-donation {
+  border-radius: 50px;
+  background: #A6E26B 0% 0% no-repeat padding-box;
+  width: 330px;
+  height: 370px;
+  display: inline-block;
+  color: white;
+  margin: 0;
+}
+
+.card-donation h2{
+  letter-spacing: 0px;
+  margin: 0;
+  font-size: 35px;
+}
+
+.card-donation h1 {
+  margin: 0;
+  font-size: 60px;
+
+}
+
+.card-donation p {
+  margin: 0;
+  font-size: 9px;
+  color: white;
+
+}
+
+.card-donation button{
+  background-color: #379307;
+  padding: 4px;
+  width: 100px;
+  border-radius: 100px;
+  border: 0px;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+.card-donation a{
+  color: #218B08;
+}
+
+
+.page12{
+  text-align: center;
+  background-image: url("page12.webp");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-feedback{
+  padding: 30px;
+  border-radius: 30px;
+  width: 80%;
+  background-color: white;
+}
+
+.form-feedback h1{
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
+  color: #707171;
+}
+
+.form-feedback p{
+  padding-inline: 10%;
+  font-size: 20px;
+  color: #A1A5A7;
+}
+
+form button{
+  background-color: #4071D4;
+  border: 0px;
+  border-radius: 15px;
+  color: white;
+  width: 30%;
+  height: 50px;
+
+}
+
+form input[type=text]{
+  font-size: 15px;
+  width: 320px;
+  padding-inline: 12px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  height: 40px;
+}
+
+form textarea{
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 12px;
+
+}
+
+form label{
+  color: black;
+  font-size: 10px;
+}
