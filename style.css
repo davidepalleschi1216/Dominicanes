@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;500;800&display=swap');
 
-
 body{
     margin: 0px;
     padding: 0px;
@@ -8,16 +7,16 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-
-
 .topbar{
+  padding-top: 10px;
   overflow: hidden;
   text-align: center;
-  width: 53%;
+  width: auto;
   height: 65px;
   position: fixed;
   top: 15px;
-  left: 24%;
+  left: 20%;
+  right: 20%;
   background: rgba(18, 10, 0, 0.40);
   border: 1px solid #707070;
   border-radius: 72px;
@@ -25,11 +24,13 @@ body{
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
   z-index: 2;
-  
 
 }
 
-.topbar button{
+
+.topbar button {
+  margin: 0;
+  padding-inline: 12px;
   height: 60px;
   font-size: 20px;
   border: 0;
@@ -37,9 +38,12 @@ body{
   background-color: rgba(0, 0, 0, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
 }
-.topbar button img {
+.topbar button {
   vertical-align: middle;
 }
+
+
+
 
 .modal {
   color: black;
@@ -186,7 +190,7 @@ body{
     width: 90%; 
     overflow-x: auto; 
   }
-  
+
   .card {
     flex: 0 0 auto;
     margin-right: 10px;
@@ -401,11 +405,12 @@ body{
 .card-donation button{
   background-color: #379307;
   padding: 4px;
-  width: 100px;
+  width: 140px;
+  height: 30px;
   border-radius: 100px;
   border: 0px;
   color: #FFFFFF;
-  font-size: 10px;
+  font-size: 13px;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -458,7 +463,6 @@ form button{
   color: white;
   width: 30%;
   height: 50px;
-
 }
 
 form input[type=text]{
@@ -475,7 +479,6 @@ form textarea{
   border-radius: 15px;
   border: 1px solid #ccc;
   padding: 12px;
-
 }
 
 form label{
